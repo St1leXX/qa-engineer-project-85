@@ -1,1 +1,30 @@
+---
+- summary: |
+    Проверка мобильной версии сайта
+  requirement: |
+    При посещении сайта с мобильного устройства сайт оторбразится
+  prerequisites: |
+    SafariLV, ChromeLV
+  test-data: |
+    iPhone 12 Pro, Galaxy S9+
+  steps:
+    - Заходим на сайт Codebattle
+    - Открываем DevTools
+    - Нажимаем на кнопку "Toggle device toolbar"
+    - Выбраем iPhone 12 Pro / Galaxy S9+
+  expected-result: |
+    Сайт отображается в мобильной версии
 
+- summary: |
+    Проверка совместимости с последними версиями браузеров
+  requirement: |
+    При посещение сайта с выбранных браузеров сайт отобразится
+  prerequisites: |
+    Windows 10
+  test-data: |
+    ChromeLV, FirefoxLV
+  steps:
+    - Открываем выбранный браузер
+    - Заходим на сайт Codebattle
+  expected-result: |
+    Сайт корректно отображается в выбранных браузерах
