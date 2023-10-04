@@ -28,3 +28,16 @@
     - Заходим на сайт Codebattle
   expected-result: |
     Сайт корректно отображается в выбранных браузерах
+
+- summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+    
