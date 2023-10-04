@@ -55,3 +55,15 @@
     - Выбрать "My profile"
   expected-result: |    
     - Открывается статистика пользователя
+
+- summary: |
+    Проверка просмотра таблицы лидеров за разные периоды
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |    
