@@ -30,6 +30,19 @@
     Сайт корректно отображается в выбранных браузерах
 
 - summary: |
+    Проверка создание матча с ботом
+  requirement: |
+    При нажатии кнопки "Fight" в лобби начнется матч против бота
+  prerequisites: |
+    Открыта главная страница Codebattle
+  test-data: |
+    Нет данных
+  steps:
+    - Нажать кнопку "Fight" в лобби
+  expected-result: |
+    Начинается матч против бота 
+
+- summary: |
     
   requirement: |
     
@@ -39,5 +52,4 @@
     
   steps:
    
-  expected-result: |
-    
+  expected-result: |    
