@@ -68,3 +68,18 @@
     - В лобби в графе "LEADERBOARD" нажать на "WEEK/MONTH/ALL" 
   expected-result: |    
     Показываются лидеры за разные промежутки времени
+    
+- summary: |
+    Проверка авторизации пользователя через Disrord
+  requirement: |
+    При авторизации через Discrod пользователь успешно зайдет на свой аккаунт в Codebattle
+  prerequisites: |
+    Открыта страница с авторизацией пользователей Codebattle
+  test-data: |
+    Нет данных
+  steps:
+    - В правом верхнем углу нажимаем на кнопку "Sign in"
+    - Нажимаем на "Sign in with Discord"
+  expected-result: |
+    Пользователь авторизуется через свой аккаунт в Disrord
+    
